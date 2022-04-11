@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITaxCalculation", "..\TaxCalculationService\ApiTaxCalculation\APITaxCalculation.csproj", "{D3785689-3F33-4965-9CBD-462CADD9E628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITaxCalculation", "..\TaxServices\ApiTaxCalculation\APITaxCalculation.csproj", "{D3785689-3F33-4965-9CBD-462CADD9E628}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxBusiness", "..\TaxCalculationService\TaxBusiness\TaxBusiness.csproj", "{04C0211C-E888-446F-969B-F5A665F9F37C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxBusiness", "..\TaxServices\TaxBusiness\TaxBusiness.csproj", "{04C0211C-E888-446F-969B-F5A665F9F37C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxDataAccess", "..\TaxCalculationService\TaxDataAccess\TaxDataAccess.csproj", "{12450C7D-8597-4D25-A054-2E5C42535C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxDataAccess", "..\TaxServices\TaxDataAccess\TaxDataAccess.csproj", "{12450C7D-8597-4D25-A054-2E5C42535C97}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCommon", "..\TaxCalculationService\TaxCommon\TaxCommon.csproj", "{FC2D295A-6CD6-4456-95ED-BFC3AC876D02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCommon", "..\TaxServices\TaxCommon\TaxCommon.csproj", "{FC2D295A-6CD6-4456-95ED-BFC3AC876D02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
