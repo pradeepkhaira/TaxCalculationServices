@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TaxCommon;
 
 namespace TaxDataAccess
 {
     public interface ITaxData
     {
+        public int GetRule(string name);
+        public List<TaxRuleRate> GetTaxes(string day, string name,int ruleId);
     }
 }
